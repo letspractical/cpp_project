@@ -71,8 +71,8 @@ int main()
     CWHText djText(title, rating, words);
 
     CWH* tuts[2];
-    tuts[0] = &djVideo;   //object reference of line 57.
-    tuts[1] = &djText;    //object reference of line 63.
+    tuts[0] = &djVideo;   //object reference of line 65.
+    tuts[1] = &djText;    //object reference of line 71.
 
     tuts[0]->display();
     tuts[1]->display();

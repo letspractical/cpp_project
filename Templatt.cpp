@@ -4,7 +4,7 @@
 using namespace std;
 
 /*template is used to reduce the size of the program, basically when the same piece of code is used multiple time at that 
-time we need to type the same code multiple times so at that time we just crerate a template which hold the class returning
+time we need to type the same code multiple times so at that time we just create a template which hold the class returning
 type, but that type is not the original return type, that type is basically the declaration of the type which will be define
 in the main section of the program*/
 

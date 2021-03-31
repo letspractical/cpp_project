@@ -51,7 +51,7 @@ protected:
 public:
     int set_marks()
     {
-        cout << " Enter marks Subject wise : ";
+        cout << " Enter marks Subject wise :- ";
         cout << "\n Maths : ";
         cin >> maths;
         cout << "\n Chemistry : ";
