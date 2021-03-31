@@ -10,8 +10,9 @@ public:
     void id_no()
     {
         salary=500;   //class member(variables) can only define in class by defining it in any function.
-        cout << "enter the employe id "<< endl;
+        cout << "Enter the employe id "<< endl;
         cin >> id;
+        cout<< "Enter the employee salary "<<salary<<endl;
     }
 };
 
@@ -22,12 +23,9 @@ int main()
     employee e1[n]; //making an object of the employee class
     for( int i=0;i<n;i++)
     {
+        cout<< " Employee no "<<i+1<<endl;
         e1[n].id_no();   //calling object array in loop
     }
     
-    employee e2;
-    employee e3;
-    employee e4;
-
     return 0;
 }
