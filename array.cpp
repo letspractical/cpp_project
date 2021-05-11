@@ -48,7 +48,7 @@ int lob[]={566,678,900};
 
     for(int j=0;j<4;j++)
     {
-        cout<<"the dob is "<<lob[j]<<endl;
+        cout<<"the lob is "<<lob[j]<<endl;
     }
 int h=1;
 do{
