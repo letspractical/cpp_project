@@ -5,7 +5,7 @@ using namespace std;
 
 class base
 {
-// vitual function is used to perform the function overloading and the perform the polymorphism
+// vitual function is used to perform the function overloading and to perform the polymorphism
 public:
     int var_base = 87 ;
     void display()     
